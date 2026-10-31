@@ -1,6 +1,6 @@
 // Forwards to wherever the club is running right now. target.json is updated automatically by the club's Mac.
 (function(){
-  var FALLBACK="https://montgomery-ceiling-gibraltar-logistics.trycloudflare.com";
+  var FALLBACK="https://edmonton-highways-graphics-assumption.trycloudflare.com";
   var base="/1percentclub";
   var rest=location.pathname.indexOf(base)===0?location.pathname.slice(base.length):location.pathname;
   if(rest==="/"||rest==="/index.html"||rest.indexOf("/app")===0) rest="/";
