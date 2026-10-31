@@ -1,6 +1,6 @@
 // Forwards to wherever the club is running right now. target.json is updated automatically by the club's Mac.
 (function(){
-  var FALLBACK="https://enabled-corrected-demonstrated-other.trycloudflare.com";
+  var FALLBACK="https://type-per-cas-campus.trycloudflare.com";
   var base="/1percentclub";
   var rest=location.pathname.indexOf(base)===0?location.pathname.slice(base.length):location.pathname;
   if(rest==="/"||rest==="/index.html"||rest.indexOf("/app")===0) rest="/";
